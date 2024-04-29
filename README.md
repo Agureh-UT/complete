@@ -2,13 +2,12 @@
 [Live Demo Link](https://complete-ten.vercel.app/contact.html)
 
 
-Installation:
-To get started with CareUp, follow these simple installation steps:
+SSH:
+git clone git@github.com:Imraanabdi/complete.git
 
-Clone the Repository:
-git clone [git@github.com:Imraanabdi/complete.git] 
+HTTPS:
+git clone https://github.com/Imraanabdi/complete.git
 
-git clone [https://github.com/Imraanabdi/complete.git]
 
 Features:
 PCA Home Care: Get assistance with daily living activities to ensure safety and independence at home.
