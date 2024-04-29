@@ -16,7 +16,13 @@ git clone https://github.com/Imraanabdi/complete.git
    git clone git@github.com:Imraanabdi/complete.git
    ```
 
-   This will replicate the repository to your local environment, facilitating seamless access and utilization of CareUp.
+2. **Clone the Repository**:
+   
+   Execute the following command to clone the CareUp repository using HTTPS:
+   ```sh
+   git clone https://github.com/Imraanabdi/complete.git
+   ```
+
 
 
 
