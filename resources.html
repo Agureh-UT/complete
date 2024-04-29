@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet"> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <div class="call-us">
+        <p>Call us today: 612.872.8811 or 1.888.795.0042</p>
+      </div>
+
+      <div class="main-header">
+        <nav class="">
+          <img src="images/minnesota-quality-care-logo.png" alt="Main logo" />
+
+          <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li class="dropdown">
+                <a href="#">SERVICES <i class="fas fa-angle-down"></i></a>
+                <div class="dropdown-content">
+                  <a href="pca-services.html"
+                    >Personal Care Assistant (PCA) Services</a
+                  >
+                  <a href="set-up.html">Setting Up PCA Services</a>
+                  <a href="transition-to-cfss.html"
+                    >Transition from PCA to CFSS</a
+                  >
+                  <a href="245d.html">245D</a>
+                  <a href="aspen-fms.html"
+                    >Aspen Financial Management Services</a
+                  >
+                  <a href="social-services-support.html">Social Services</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="resources.html"
+                  >RESOURCES <i class="fas fa-angle-down"></i
+                ></a>
+                <div class="dropdown-content">
+                  <a
+                    href="do-i-need-a-homemaker-a-pca-or-a-nursing-assistant-or-a-home-health-nurse.html"
+                    >Homemakers, PCA's, CNA's, RN's</a
+                  >
+                </div>
+              </li>
+              <li><a href="careers.html">CAREERS</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </div>
+    </header>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/live-independently-at-home-mn.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/minnesota-home-care-agency.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/live-independently-at-home-mn.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="resources">
+      <h3>Resources</h3>
+      <div class="resource-row">
+        <div class="resource-section">
+          <ul>
+            <li><strong>Minnesota Home Care Association</strong></li>
+            <li><strong>Senior Linkage Line</strong></li>
+            <li>
+              <strong>Volunteers of America of Minnesota and Wisconsin</strong>
+              <p>7625 Metro Boulevard Minneapolis, MN 55439</p>
+              <p><strong>Phone:</strong> (952) 945-4000</p>
+              <p><strong>General Inquiries:</strong> info@voamn.org</p>
+              <p><strong>Media Inquiries:</strong> steve.nelson@voamn.org</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resource-section">
+          <h3>Health Plans</h3>
+          <ul>
+            <li>
+              <strong>Blue Plus</strong> 651-662-3584 866-477-1584 (toll free)
+            </li>
+            <li>
+              <strong>HealthPartners</strong> 952-883-5050 877-713-8215 (toll
+              free) 711 (TTY/TDD)
+            </li>
+            <li>
+              <strong>Itasca Medical Care</strong> 218-327-6188 800-843-9536
+              (toll free) 800-627-3529 (TTY/TDD)
+            </li>
+            <li>
+              <strong>Medica</strong> 952-992-2345 800-234-8755 (toll free)
+              800-234-8819 (TTY/TDD)
+            </li>
+            <li>
+              <strong>PrimeWest Health</strong> 800-366-2906 (toll free)
+              800-627-3529 (TTY/TDD)
+            </li>
+            <li>
+              <strong>South Country Health Alliance</strong> 507-444-7770
+              866-567-7242 (toll free) 800-627-3529 or 711 (TTY/TDD)
+            </li>
+            <li>
+              <strong>UCare</strong> 612-676-6868 800-707-1711 (toll free)
+              800-688-2534 (TTY/TDD) (toll free)
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="resource-row">
+        <div class="resource-section">
+          <h3>Metro County Contacts</h3>
+          <p>
+            To receive insurance coverage for Personal Care Assistant or
+            Homemaker services you must be eligible for Medical Assistance
+            through the State of Minnesota. You sign up for the Medical
+            Assistance through your county office.
+          </p>
+          <ul>
+            <li>
+              <strong>Anoka</strong><br />Anoka County Community Social
+              Services<br />2100 Third Ave., Suite 340 Government Center<br />Anoka,
+              MN 55303-2644<br />763-323-6089 or 763-422-6912
+            </li>
+            <li>
+              <strong>Carver</strong><br />Carver County Community Social
+              Services<br />602 E Fourth St.<br />Chaska, MN 55318<br />952-361-1999
+              or 952-442-7670
+            </li>
+            <li>
+              <strong>Dakota</strong><br />Dakota County Community Services<br />1
+              Mendota Road W, Suite 300<br />West Saint Paul, MN 55118-4771<br />651-554-6336
+              or 651-554-6108
+            </li>
+            <li>
+              <strong>Hennepin</strong><br />Hennepin County Social Services<br />Gov.
+              Center, 14th floor - MC140<br />300 S Sixth Street<br />Minneapolis,
+              MN 55487<br />612-348-4111
+            </li>
+            <li>
+              <strong>Ramsey</strong><br />Ramsey County Human Service
+              Department<br />160 E Kellogg Blvd., Suite 8800<br />St. Paul, MN
+              55101<br />651-266-3613 FAX 651-266-4432
+            </li>
+          </ul>
+        </div>
+        <div class="resource-section">
+          <h3>Metro County Contacts (continued)</h3>
+          <ul>
+            <li>
+              <strong>Scott</strong><br />Scott County Human Services<br />200
+              Fourth Ave. W, Suite 300<br />Shakopee, MN 55379<br />952-496-8556
+              or 952-496-8271
+            </li>
+            <li>
+              <strong>Washington</strong><br />Washington County Community
+              Services Department<br />14949 62nd St. N P.O. Box 30<br />Stillwater,
+              MN 55082-0030<br />651-430-6484 or 651-430-6576
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <section class="team">
+      <h2>Meet our team</h2>
+      <p>
+        For further assistance, please reach out to us. We would love to assist
+        you and help you take steps towards directing your own care.
+      </p>
+
+      <div class="row">
+        <div class="team-content">
+          <div class="team-col">
+            <h3>ABDIWADI HUSEN</h3>
+            <h4>Manager</h4>
+            <span>612-872-8811</span>
+            <p>awadi@mnqcare.com</p>
+          </div>
+
+          <div class="team-col">
+            <h3>DANIELLE LOWE</h3>
+            <h4>Intake Assistant</h4>
+            <span>612-872-8811</span>
+            <p>daniellel@mnqcare.com</p>
+          </div>
+
+          <div class="team-col">
+            <h3>MAI VANG</h3>
+            <h4>Service Coordinator</h4>
+            <span>612-872-8811</span>
+            <p>maiv@mnqcare.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Minnesota Quality Care, Inc and Aspen FMS</p>
+      <span>(612) 872-8811</span>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script> -->
+  </body>
+</html>

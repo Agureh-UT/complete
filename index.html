@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet"> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <div class="call-us">
+        <p>Call us today: 612.872.8811 or 1.888.795.0042</p>
+      </div>
+
+      <div class="main-header">
+        <nav class="">
+          <img src="images/minnesota-quality-care-logo.png" alt="Main logo" />
+
+          <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li class="dropdown">
+                <a href="#">SERVICES <i class="fas fa-angle-down"></i></a>
+                <div class="dropdown-content">
+                  <a href="pca-services.html"
+                    >Personal Care Assistant (PCA) Services</a
+                  >
+                  <a href="set-up.html">Setting Up PCA Services</a>
+                  <a href="transition-to-cfss.html"
+                    >Transition from PCA to CFSS</a
+                  >
+                  <a href="245d.html">245D</a>
+                  <a href="aspen-fms.html"
+                    >Aspen Financial Management Services</a
+                  >
+                  <a href="social-services-support.html">Social Services</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="resources.html"
+                  >RESOURCES <i class="fas fa-angle-down"></i
+                ></a>
+                <div class="dropdown-content">
+                  <a
+                    href="do-i-need-a-homemaker-a-pca-or-a-nursing-assistant-or-a-home-health-nurse.html"
+                    >Homemakers, PCA's, CNA's, RN's</a
+                  >
+                </div>
+              </li>
+              <li><a href="careers.html">CAREERS</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </div>
+    </header>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/live-independently-at-home-mn.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5>FMS</h5>
+            <p>
+              For those looking to self direct their services through consumer
+              directed community supports (CDCS) or the Consumer Support Grant
+              (CS6). Aspen FMS provides help with financial tasks, billing. and
+              employer-related responsibilities. This means Aspen’s role is to
+              support your loved one to fulfill his or her responsibilities in
+              being the employer of his or her workers
+            </p>
+            <button class="btn-learn-more">LEARN MORE</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/minnesota-home-care-agency.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5>245D</h5>
+            <p>
+              To improve the dignity, health, and independence of those we
+              serve, Minnesota Quality Care offers 245D services to people with
+              disabilities and those over the age of 65. These services can
+              provide the level of assistance, supervision and care that is
+              necessary to ensure the health and saftey of your loved one. This
+              includes ICLS, Homemaker Services. Personal Support, or Respite
+              Care Services
+            </p>
+            <button class="btn-learn-more">LEARN MORE</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/live-independently-at-home-mn.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5>PCA Services</h5>
+            <p>
+              Minnesota Quality Care, Inc, is a Minneapolis home care provider
+              that specializes in Personal Care Assistant (PCA) services. A home
+              health provider helps you find the right personal care assistance
+              for you. PCA Services are a type of non-medical health care that
+              enables people to live live independently within their homes and
+              stay in their community.
+            </p>
+            <button class="btn-learn-more">LEARN MORE</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="why-us">
+      <img src="images/minnesota-home-care-agency.jpg" alt="" />
+      <div class="why-us-content">
+        <h2>Why Minnesota Quality Care</h2>
+        <p>
+          We know there are many Minnesota PCA agencies you can choose from.
+          Minnesota Quality Care is an experienced home care agency you can
+          trust to care for your family. Our company is known for its reliable
+          care and willingness to tackle the most complicated cases.
+        </p>
+
+        <p>
+          We have served as a home care agency in Minneapolis & St. Paul since
+          2000. In that time we have faithfully served thousands of families.
+        </p>
+
+        <p>
+          In addition to seniors, we support individuals and families with
+          disabilities and chronic illnesses. We can also help as needed for
+          recovery care.
+        </p>
+
+        <p>
+          Minnesota Quality Care provides a caring environment for participants
+          that supports the whole person — mind, heart, and body.
+        </p>
+
+        <p>
+          Most importantly, when you have a question or concern, you can simply
+          call our office and know that our support workers will make sure you
+          find solutions.
+        </p>
+      </div>
+    </section>
+    <section class="services">
+      <div class="services-col">
+        <i class="fa-solid fa-hands-holding"></i>
+        <h3>PCA HOME CARE</h3>
+        <p>
+          Personal Care Assistants (PCAs) are provided by Minnesota Quality Care
+          for seniors in need. PCAs help with the activities of daily living
+          that keep your loved one safe in their home. They assist clients with
+          eating, bathing, walking from room to room, and running errands. PCA
+          workers keep clients safe in their homes by being there to help with
+          daily tasks.
+        </p>
+        <button>LEARN MORE</button>
+      </div>
+
+      <div class="services-col">
+        <i class="fa-solid fa-house"></i>
+        <h3>SOCIAL SUPPORT</h3>
+        <p>
+          We do so much more than home care services for our clients. When you
+          need help with paperwork and referrals we are there to help as part of
+          your health care team. Our office staff has decades of experience
+          working with county and health plan staff. We provide custom training
+          for each PCA and Homemaker for the unique needs of each client.
+        </p>
+        <button>LEARN MORE</button>
+      </div>
+
+      <div class="services-col">
+        <i class="fa-solid fa-hand-holding-heart"></i>
+        <h3>ASPEN FMS</h3>
+        <p>
+          For those looking to self-direct their services through consumer
+          directed community supports (CDCS) or the Consumer Support Grant
+          (CSG), Aspen FMS provides help with financial tasks, billing, and
+          employer-related responsibilities. This means Aspen’s role is to
+          support your loved one to fulfill his or her responsibilities in being
+          the employer of his or her workers.
+        </p>
+        <button>LEARN MORE</button>
+      </div>
+
+      <div class="services-col">
+        <i class="fa-solid fa-wheelchair"></i>
+        <h3>245D</h3>
+        <p>
+          To improve the dignity, health, and independence of those we serve, we
+          offer 245D services to people with disabilities and those over the age
+          of 65. These services can provide the level of assistance and
+          supervision that is necessary to ensure the health and safety of your
+          loved one. This includes ICLS, Homemaker Services, Personal Support,
+          or Respite Care Services.
+        </p>
+        <button>LEARN MORE</button>
+      </div>
+    </section>
+
+    <section class="needs">
+      <div class="needs-content">
+        <h2>Meeting Emotional Needs</h2>
+        <p>
+          An elderly or disabled person needs to feel safe and remain close to
+          other people. Without sufficient support, patients may have difficulty
+          sleeping, poor appetite, or an inability to concentrate. Personal care
+          by Minnesota Quality Care will be designed to address the
+          vulnerability, loneliness, boredom, and isolation often felt by
+          elderly or disabled people.
+        </p>
+      </div>
+
+      <img
+        src="images/live-independently-at-home-mn.jpg"
+        alt="A chinese lady helping an older lady"
+      />
+    </section>
+
+    <section class="team">
+      <h2>Meet our team</h2>
+      <p>
+        For further assistance, please reach out to us. We would love to assist
+        you and help you take steps towards directing your own care.
+      </p>
+
+      <div class="row">
+        <div class="team-content">
+          <div class="team-col">
+            <h3>ABDIWADI HUSEN</h3>
+            <h4>Manager</h4>
+            <span>612-872-8811</span>
+            <p>awadi@mnqcare.com</p>
+          </div>
+
+          <div class="team-col">
+            <h3>DANIELLE LOWE</h3>
+            <h4>Intake Assistant</h4>
+            <span>612-872-8811</span>
+            <p>daniellel@mnqcare.com</p>
+          </div>
+
+          <div class="team-col">
+            <h3>MAI VANG</h3>
+            <h4>Service Coordinator</h4>
+            <span>612-872-8811</span>
+            <p>maiv@mnqcare.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Minnesota Quality Care, Inc and Aspen FMS</p>
+      <span>(612) 872-8811</span>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script> -->
+  </body>
+</html>

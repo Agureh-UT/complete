@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet"> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <div class="call-us">
+        <p>Call us today: 612.872.8811 or 1.888.795.0042</p>
+      </div>
+
+      <div class="main-header">
+        <nav class="">
+          <img src="images/minnesota-quality-care-logo.png" alt="Main logo" />
+
+          <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li class="dropdown">
+                <a href="#">SERVICES <i class="fas fa-angle-down"></i></a>
+                <div class="dropdown-content">
+                  <a href="pca-services.html"
+                    >Personal Care Assistant (PCA) Services</a
+                  >
+                  <a href="set-up.html">Setting Up PCA Services</a>
+                  <a href="transition-to-cfss.html"
+                    >Transition from PCA to CFSS</a
+                  >
+                  <a href="245d.html">245D</a>
+                  <a href="aspen-fms.html"
+                    >Aspen Financial Management Services</a
+                  >
+                  <a href="social-services-support.html">Social Services</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="resources.html"
+                  >RESOURCES <i class="fas fa-angle-down"></i
+                ></a>
+                <div class="dropdown-content">
+                  <a
+                    href="do-i-need-a-homemaker-a-pca-or-a-nursing-assistant-or-a-home-health-nurse.html"
+                    >Homemakers, PCA's, CNA's, RN's</a
+                  >
+                </div>
+              </li>
+              <li><a href="careers.html">CAREERS</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </div>
+    </header>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/live-independently-at-home-mn.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/minnesota-home-care-agency.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/live-independently-at-home-mn.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="health">
+      <h1>245D Services</h1>
+      <p>
+        To improve the dignity, health, and independence of those we serve,
+        Minnesota Quality Care offers 245D services to people with disabilities
+        and those over the age of 65. These services can provide the level of
+        assistance, supervision and care that is necessary to ensure the health
+        and safety of your loved one. This includes ICLS, Homemaker Services,
+        Personal Support, or Respite Care Services.
+      </p>
+    </section>
+
+    <section class="team">
+      <h2>Meet our team</h2>
+      <p>
+        For further assistance, please reach out to us. We would love to assist
+        you and help you take steps towards directing your own care.
+      </p>
+
+      <div class="row">
+        <div class="team-content">
+          <div class="team-col">
+            <h3>ABDIWADI HUSEN</h3>
+            <h4>Manager</h4>
+            <span>612-872-8811</span>
+            <p>awadi@mnqcare.com</p>
+          </div>
+
+          <div class="team-col">
+            <h3>DANIELLE LOWE</h3>
+            <h4>Intake Assistant</h4>
+            <span>612-872-8811</span>
+            <p>daniellel@mnqcare.com</p>
+          </div>
+
+          <div class="team-col">
+            <h3>MAI VANG</h3>
+            <h4>Service Coordinator</h4>
+            <span>612-872-8811</span>
+            <p>maiv@mnqcare.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Minnesota Quality Care, Inc and Aspen FMS</p>
+      <span>(612) 872-8811</span>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet"> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <div class="call-us">
+        <p>Call us today: 612.872.8811 or 1.888.795.0042</p>
+      </div>
+
+      <div class="main-header">
+        <nav class="">
+          <img src="images/minnesota-quality-care-logo.png" alt="Main logo" />
+
+          <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li class="dropdown">
+                <a href="#">SERVICES <i class="fas fa-angle-down"></i></a>
+                <div class="dropdown-content">
+                  <a href="pca-services.html"
+                    >Personal Care Assistant (PCA) Services</a
+                  >
+                  <a href="set-up.html">Setting Up PCA Services</a>
+                  <a href="transition-to-cfss.html"
+                    >Transition from PCA to CFSS</a
+                  >
+                  <a href="245d.html">245D</a>
+                  <a href="aspen-fms.html"
+                    >Aspen Financial Management Services</a
+                  >
+                  <a href="social-services-support.html">Social Services</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="resources.html"
+                  >RESOURCES <i class="fas fa-angle-down"></i
+                ></a>
+                <div class="dropdown-content">
+                  <a
+                    href="do-i-need-a-homemaker-a-pca-or-a-nursing-assistant-or-a-home-health-nurse.html"
+                    >Homemakers, PCA's, CNA's, RN's</a
+                  >
+                </div>
+              </li>
+              <li><a href="careers.html">CAREERS</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </div>
+    </header>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/live-independently-at-home-mn.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/minnesota-home-care-agency.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/live-independently-at-home-mn.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="pcas">
+      <h1>Personal Care Assistant Services</h1>
+      <p>
+        MN Quality Care, Inc, is a Minneapolis home care provider that
+        specializes in Personal Care Assistant (PCA) services. As you are
+        probably aware, these services are a type of non-medical health care
+        that enables people to live independently within their homes and stay in
+        their community. Accordingly, we help you find the right PCA to fulfill
+        your specific needs.
+      </p>
+    </section>
+
+    <section class="needs">
+      <div class="needs-content">
+        <h2>How can a PCA help you?</h2>
+        <ul>
+          <li>Perform light cleaning</li>
+          <li>Cook</li>
+          <li>Run errands</li>
+          <li>Laundry</li>
+          <li>Assist clients to bathe, shower, and groom</li>
+          <li>
+            Help clients in activities which require them to read, talk, and
+            play games
+          </li>
+        </ul>
+      </div>
+
+      <img
+        src="images/live-independently-at-home-mn.jpg"
+        alt="A chinese lady helping an older lady"
+      />
+    </section>
+
+    <section class="pcas">
+      <h2>What are PCA Services?</h2>
+      <p>
+        The personal care assistance (PCA) program helps you with common daily
+        activities and health-related tasks. Of course, you usually get PCA
+        services at home, but you can also get them wherever your daily
+        activities take you, such as at the supermarket, at work or school, or
+        even at the movie theater.
+      </p>
+
+      <p>
+        The person who helps you is called a personal care assistant (PCA).
+        There are common services a can PCA provides, for instance (and
+        according to your needs), they will help you dress, bathe, eat, and
+        prepare meals; however, a PCA can also you help shop, pay bills, and get
+        to medical appointments. Not surprisingly, these are called activities
+        of daily living.
+      </p>
+
+      <p>
+        PCAs help with these and other important daily activities, as well as
+        some health-related tasks, but PCAs cannot help you with other things,
+        such as home maintenance and repairs, or medical tasks, such as giving
+        injections.
+      </p>
+    </section>
+
+    <section class="pcas-services">
+      <h2>Are PCA services covered by my insurance?</h2>
+      <p>
+        Unfortunately PCA services are not covered by private insurance or
+        Medicare, but they can be covered by Medicaid. If you are eligible for
+        Medicaid reimbursement, we can help you get coverage. With this in mind,
+        we encourage you to contact us so we can assist you. We are here to
+        help.
+      </p>
+    </section>
+
+    <section class="team">
+      <h2>Meet our team</h2>
+      <p>
+        For further assistance, please reach out to us. We would love to assist
+        you and help you take steps towards directing your own care.
+      </p>
+
+      <div class="row">
+        <div class="team-content">
+          <div class="team-col">
+            <h3>ABDIWADI HUSEN</h3>
+            <h4>Manager</h4>
+            <span>612-872-8811</span>
+            <p>awadi@mnqcare.com</p>
+          </div>
+
+          <div class="team-col">
+            <h3>DANIELLE LOWE</h3>
+            <h4>Intake Assistant</h4>
+            <span>612-872-8811</span>
+            <p>daniellel@mnqcare.com</p>
+          </div>
+
+          <div class="team-col">
+            <h3>MAI VANG</h3>
+            <h4>Service Coordinator</h4>
+            <span>612-872-8811</span>
+            <p>maiv@mnqcare.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Minnesota Quality Care, Inc and Aspen FMS</p>
+      <span>(612) 872-8811</span>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script> -->
+  </body>
+</html>

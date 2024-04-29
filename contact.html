@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet"> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <div class="call-us">
+        <p>Call us today: 612.872.8811 or 1.888.795.0042</p>
+      </div>
+
+      <div class="main-header">
+        <nav class="">
+          <img src="images/minnesota-quality-care-logo.png" alt="Main logo" />
+
+          <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li class="dropdown">
+                <a href="#">SERVICES <i class="fas fa-angle-down"></i></a>
+                <div class="dropdown-content">
+                  <a href="pca-services.html">Personal Care Assistant (PCA) Services</a>
+                  <a href="set-up.html">Setting Up PCA Services</a>
+                  <a href="transition-to-cfss.html">Transition from PCA to CFSS</a>
+                  <a href="245d.html">245D</a>
+                  <a href="aspen-fms.html">Aspen Financial Management Services</a>
+                  <a href="social-services-support.html">Social Services</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="resources.html">RESOURCES <i class="fas fa-angle-down"></i></a>
+                <div class="dropdown-content">
+                  <a href="do-i-need-a-homemaker-a-pca-or-a-nursing-assistant-or-a-home-health-nurse.html">Homemakers, PCA's, CNA's, RN's</a>
+                </div>
+              </li>
+              <li><a href="careers.html">CAREERS</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+    </header>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/live-independently-at-home-mn.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/minnesota-home-care-agency.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/live-independently-at-home-mn.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.83988643248!2d-0.2664026819621166!3d51.5287398051139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b323093d307%3A0x2fb199016d5642a7!2sThe%20British%20Museum!5e0!3m2!1sen!2ske!4v1711460721169!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-home"></i>
+                    <span>
+                        <h5>1421 Park Ave S Ste 104, Minneapolis, MN</h5>
+                        <h5>Visit us</h5>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>612.872.8811</h5>
+                        <h5>Call us</h5>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>info@mnqcare.com</h5>
+                        <h5>Email us</h5>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+                <form>
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="emaill" placeholder="Enter email address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+      <p>&copy; 2024 Minnesota Quality Care, Inc and Aspen FMS</p>
+      <span>(612) 872-8811</span>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script> -->
+  </body>
+</html>
